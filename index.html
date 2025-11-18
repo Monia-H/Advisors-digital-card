@@ -2,76 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>My Digital Business Card</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tanvir Ahmed - Digital Business Card</title>
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Optional: Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div class="header">
-    <div class="profile-photo">
-      <img src="profile.png" alt="Tanvir Ahmed" />
-    </div>
-    <h1 class="name">Tanvir Ahmed</h1>
-    <h2 class="title">CEO</h2>
-
-    <div class="icon-row">
-      <a href="tel:7703293062" class="circle-icon">📞</a>
-      <a href="mailto:info@advisorstaxpro.com" class="circle-icon">✉️</a>
-      <a href="https://www.google.com/maps/search/?api=1&query=2505+Chamblee+Tucker+Rd,+Suite+207,+Chamblee,+GA,+30341" target="_blank" class="circle-icon">📍</a>
-    </div>
-  </div>
-
-  <div class="section about">
-    <p>MPA – Georgia State University</p>
-    <p>MBA – Accounting</p>
-    <p>Member – National Association of Tax Professionals</p>
-  </div>
-
-  <div class="section info">
-    <div class="item">
-      <span class="item-icon">📞</span>
-      <div>
-        <p class="label">Phone</p>
-        <p class="value"><a href="tel:7703293062">770-329-3062</a></p>
+  <main class="page">
+    <section class="card">
+      <div class="avatar-wrapper">
+        <!-- Replace avatar.png with your own image file in the repo -->
+        <img src="profile.png" alt="Your profile photo" class="avatar" />
       </div>
-    </div>
 
-    <div class="item">
-      <span class="item-icon">🖨️</span>
-      <div>
-        <p class="label">Fax</p>
-        <p class="value">770-415-8838</p>
+      <h1 class="name">Your Name</h1>
+      <p class="title">Your Role / Title</p>
+      <p class="company">Your Company or School</p>
+
+      <p class="tagline">
+        Short tagline about you. For example: “CS student & aspiring SWE interested in AI, web dev, and embedded systems.”
+      </p>
+
+      <div class="button-row">
+        <a class="btn primary" href="mailto:you@example.com">Email Me</a>
+        <a class="btn outline" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">
+          LinkedIn
+        </a>
       </div>
-    </div>
 
-    <div class="item">
-      <span class="item-icon">✉️</span>
-      <div>
-        <p class="label">Email</p>
-        <p class="value"><a href="mailto:info@advisorstaxpro.com">info@advisorstaxpro.com</a></p>
+      <div class="links">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+        <span>•</span>
+        <a href="https://your-portfolio-site.com" target="_blank" rel="noopener">Portfolio</a>
+        <span>•</span>
+        <a href="tel:+11234567890">Call</a>
       </div>
-    </div>
 
-    <div class="item">
-      <span class="item-icon">🌐</span>
-      <div>
-        <p class="label">Website</p>
-        <p class="value"><a href="https://advisorstaxpro.com" target="_blank">advisorstaxpro.com</a></p>
+      <div class="footer-note">
+        <p>Scan or tap to save this card.</p>
+        <!-- If you generate a QR code PNG, save it as qr.png in the repo -->
+        <img src="qr.png" alt="QR code to this page" class="qr" />
       </div>
-    </div>
-
-    <div class="item">
-      <span class="item-icon">📍</span>
-      <div>
-        <p class="label">Location</p>
-        <p class="value">2505 Chamblee Tucker Rd, Suite 207, Chamblee, GA, 30341</p>
-      </div>
-    </div>
-  </div>
-
+    </section>
+  </main>
 </body>
 </html>
