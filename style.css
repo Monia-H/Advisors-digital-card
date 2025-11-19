@@ -17,6 +17,17 @@ body {
   justify-content: center;
   color: #111827;
 }
+.info-box {
+  background: #ffffff;
+  padding: 14px 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin-bottom: 16px;
+  text-align: left;
+  line-height: 1.4;
+}
 
 /* Page container */
 .page {
